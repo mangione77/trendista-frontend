@@ -1,9 +1,6 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+html, body, #app, #app>div {
+  height: 100vh;
+  background-color: #FFFFFF !important;
 }
 
 .App-header {
@@ -19,4 +16,69 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.trending-results-container {
+  margin-top: -6em !important;
+}
+
+.sideNav {
+  margin-top: 1.5em;
+  width: 3em;
+}
+
+.trending-results-col {
+  max-height: 20rem;
+  overflow-y: auto;
+  text-align: left;
+  width: 10rem !important;
+  max-width: 10rem;
+}
+
+.latest-news-col {
+  max-height: 20rem;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.latest-news-card {
+  background-color: #F5F8FA !important;
+  border-color: rgba(34, 20, 20, 0.05) !important;
+  border: 0.2px;
+}
+
+.latest-news-card:hover {
+  background-color: #E6ECF0 !important;
+  border-color: rgba(34, 20, 20, 0.05) !important;
+  border: 0.2px;
+}
+
+.trendingtitle {
+  font-size: 10px !important;
+}
+
+.trending-result-card {
+  background-color: #F5F8FA !important;
+  border-color: rgba(34, 20, 20, 0.05) !important;
+  border: 0.2px;
+}
+
+.trending-result-card:hover {
+  background-color: #E6ECF0 !important;
+  border-color: rgba(34, 20, 20, 0.05) !important;
+  border: 0.2px;
+}
+
+/* UTILITIES */
+
+.clickable {
+  cursor: pointer !important;
+}
+
+.transparent {
+  background: transparent !important;
+}
+
+.screenname {
+  font-size: 10px;
 }
